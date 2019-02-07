@@ -19,6 +19,9 @@ The only dependency is the alpace-trade-api module. You can set up the environme
 ```
 $ python main.py
 ```
+This repository is also set up for Heroku.  If you have a Heroku account, create a new
+app and run this as an application. It is only one worker app so make sure you set up
+worker type app.
 
 ## Customization
 universe.Universe is hard-coded. Easy customization is to change this to a more dynamic set of stocks with some filters like per-share price set to a minimum or maximum. The assumption is that at most a position can take is up 20% of the portfolio. If your account siz varies or risk tolerance then changing the values is needed.
