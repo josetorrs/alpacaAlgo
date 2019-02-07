@@ -31,7 +31,7 @@ app and run this as an application. It is only one worker app so make sure you s
 worker type app.
 
 
-## Cutomization
+## Customization
 
 universe.Universe is hard-coded.  Easy customization is to change this to more dynamic
 set of stocks with some filters such as per-share price to be less than $50 or so.
